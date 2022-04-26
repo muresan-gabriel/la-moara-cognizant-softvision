@@ -44,14 +44,14 @@ The project was created to submit homeworks throughout the sessions.
 
 The idea is to build a fullstack application of a childhood game called 'Nine Men's Morris' or 'La moară / Țintar'.
 
-# First course tasks
+### First course tasks
 
 <ul>
   <li>Git, VSCode and Node setup</li>
   <li>Creation of a simple web page</li>
 </ul>
 
-# My accomplishments
+### My accomplishments
 
 <ul>
   <li>Git, VSCode and Node were already installed.</li>
@@ -64,13 +64,13 @@ The idea is to build a fullstack application of a childhood game called 'Nine Me
 
 As the course advances, all languages, tools and technologies used will be posted and this list will be updated.
 
-# Languages
+### Languages
 
-# IDEs / Editors
+### IDEs / Editors
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-# Technologies / Frameworks / Libraries
+### Technologies / Frameworks / Libraries
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
