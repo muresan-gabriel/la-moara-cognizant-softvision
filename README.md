@@ -32,7 +32,7 @@
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#deployment">Acknowledgments</a></li>
+    <li><a href="#deployment">Deployment</a></li>
   </ol>
 </details>
 
@@ -113,6 +113,6 @@ Gabriel Mureșan - contact@gabrielmuresan.site
 
 ## Deployment
 
-Will be updated if at the end of the course the project will be deployed.
+This section will be updated if, at the end of the course, the project will be deployed.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
