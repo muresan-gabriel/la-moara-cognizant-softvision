@@ -148,6 +148,6 @@ Gabriel Mureșan - contact@gabrielmuresan.site
 
 ## Deployment
 
-This section will be updated if, at the end of the course, the project will be deployed.
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
