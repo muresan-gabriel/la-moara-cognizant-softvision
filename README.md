@@ -89,7 +89,42 @@ As the course advances, all languages, tools and technologies used will be poste
 
 ## Roadmap
 
-- [ ] Tasks will be updated as the course advances and homeworks are assigned.
+Homework #1
+
+- [x] Create a GitHub repository for future homework.
+- [x] Create an HTML page about a preferred topic.
+  - [x] Must contain atleast 5 HTML tags.
+  - [x] Must contain atleast one class selector and atleast one id selector.
+  - [x] Must contain atleast one style applied to the children of a parent element
+- [x] Create a server which displays the page mentioned above.
+
+Homework #2
+
+- [ ] TBA.
+
+Homework #3
+
+- [ ] TBA.
+
+Homework #4
+
+- [ ] TBA.
+
+Homework #5
+
+- [ ] TBA.
+
+Homework #6
+
+- [ ] TBA.
+
+Homework #7
+
+- [ ] TBA.
+
+Homework #8
+
+- [ ] TBA.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
