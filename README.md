@@ -45,21 +45,6 @@ The project was created to submit homeworks throughout the sessions.
 
 The idea is to build a fullstack application of a childhood game called 'Nine Men's Morris' or 'La moară / Țintar'.
 
-### First course tasks
-
-<ul>
-  <li>Git, VSCode and Node setup</li>
-  <li>Creation of a simple web page</li>
-</ul>
-
-### My accomplishments
-
-<ul>
-  <li>Git, VSCode and Node were already installed.</li>
-  <li>Creation of the course / project's repository.</li>
-  <li>Followed through the creation of a basic website.</li>
-</ul>
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
