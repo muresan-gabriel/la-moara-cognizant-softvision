@@ -99,6 +99,8 @@ As the course advances, all languages, tools and technologies used will be poste
   - [x] Must contain atleast one style applied to the children of a parent element.
 - [x] Create a server which displays the page mentioned above.
 
+<img src="/readme-img/Screenshot_11.png" alt="Homework #1 Screenshot" title="Screenshot of the first homework">
+
 Homework #2
 
 - [ ] TBA.
