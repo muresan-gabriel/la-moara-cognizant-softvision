@@ -99,7 +99,7 @@ As the course advances, all languages, tools and technologies used will be poste
   - [x] Must contain atleast one style applied to the children of a parent element.
 - [x] Create a server which displays the page mentioned above.
 
-![HW_1_SS][readme-img/Screenshot_11.png]
+![HW_1_SS][/readme-img/Screenshot_11.png]
 
 Homework #2
 
