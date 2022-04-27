@@ -40,3 +40,20 @@
 .navigation-menu h2 {
   text-align: center;
 }
+
+.back-home {
+  background-color: #ff7434;
+  border: #b84f1f;
+  margin: 25px;
+}
+
+.back-home:hover {
+  background-color: #d45418d7;
+}
+
+.back-home:active {
+  background-color: #a74213d7;
+}
+.back-home:focus {
+  background-color: #ff7434;
+}

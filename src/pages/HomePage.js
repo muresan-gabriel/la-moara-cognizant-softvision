@@ -2,7 +2,13 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <div className="container-fluid d-flex justify-content-center align-items-center flex-column navigation-menu">
+    <div className="container-fluid d-flex align-items-center flex-column navigation-menu">
+      <a
+        class="btn btn-primary back-home align-self-end shadow-none"
+        href="https://github.com/muresan-gabriel/la-moara-cognizant-softvision"
+      >
+        Back to GitHub Repository
+      </a>
       <h1>La Moară - Cognizant Softvision Course</h1>
       <span className="personal">
         Live homework previews by&nbsp;
