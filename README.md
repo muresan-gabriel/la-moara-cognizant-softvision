@@ -96,7 +96,7 @@ As the course advances, all languages, tools and technologies used will be poste
 - [x] Create an HTML page about a preferred topic.
   - [x] Must contain atleast 5 HTML tags.
   - [x] Must contain atleast one class selector and atleast one id selector.
-  - [x] Must contain atleast one style applied to the children of a parent element
+  - [x] Must contain atleast one style applied to the children of a parent element.
 - [x] Create a server which displays the page mentioned above.
 
 Homework #2
