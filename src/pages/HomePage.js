@@ -36,7 +36,11 @@ const HomePage = () => {
       <a className="personal personal-link" href="#">
         Homework #7 (inactive)
       </a>
-      <a className="personal personal-link" href="#">
+      <a
+        className="personal personal-link"
+        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+        target="_blank"
+      >
         Homework #8 (inactive)
       </a>
     </div>
