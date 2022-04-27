@@ -5,7 +5,7 @@ const HomePage = () => {
     <div className="container-fluid d-flex justify-content-center align-items-center flex-column navigation-menu">
       <h1>La Moară - Cognizant Softvision Course</h1>
       <span className="personal">
-        By&nbsp;
+        Live homework previews by&nbsp;
         <a
           className="personal personal-link"
           href="https://gabrielmuresan.site"
