@@ -100,3 +100,13 @@ a {
 .btn:active {
   background-color: #f76d2e;
 }
+
+@media only screen and (max-width: 1200px) {
+  .pixel-art-container {
+    flex-direction: column;
+  }
+
+  .pixel-art-box {
+    width: 100%;
+  }
+}
