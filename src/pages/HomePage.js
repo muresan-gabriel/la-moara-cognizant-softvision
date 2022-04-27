@@ -15,10 +15,7 @@ const HomePage = () => {
         </a>
       </span>
       <h2 className="homework-heading">Homework navigation menu</h2>
-      <a
-        className="personal personal-link"
-        href="../../old-first-course/homework_1/index.html/"
-      >
+      <a className="personal personal-link" href="./homework_1/index.html/">
         Homework #1
       </a>
       <a className="personal personal-link" href="#">
