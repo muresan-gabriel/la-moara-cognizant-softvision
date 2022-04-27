@@ -9,7 +9,7 @@
 
   <p align="center">
     Project created during the Cognizant Softvision Webinar<br />
-    You can view homeworks live by clicking the 'Live Website' link below
+    You can view the homeworks live by clicking the 'Live Website' link below
     <br />
     <a href="https://github.com/muresan-gabriel/la-moara-cognizant-softvision"><strong>Explore the docs »</strong></a>
     <br />
