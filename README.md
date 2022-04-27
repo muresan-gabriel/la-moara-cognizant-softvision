@@ -10,10 +10,10 @@
   <p align="center">
     Project created during the Cognizant Softvision Webinar
     <br />
-    <a href="#"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/muresan-gabriel/la-moara-cognizant-softvision"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="#" target="_blank">Live Website</a>
+    <a href="https://la-moara-cognizant-softvision-course.netlify.app/" target="_blank">Live Website</a>
     ·
     <a href="https://github.com/muresan-gabriel/la-moara-cognizant-softvision/issues">Report Bug</a>
   </p>
@@ -89,7 +89,7 @@ As the course advances, all languages, tools and technologies used will be poste
 
 ## Roadmap
 
-Homework #1
+<a href="https://la-moara-cognizant-softvision-course.netlify.app/homework_1/index.html">Homework #1</a>
 
 - [x] Create a GitHub repository for future homework.
 - [x] Create an HTML page about a preferred topic.
