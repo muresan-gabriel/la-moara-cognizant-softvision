@@ -1,13 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 body {
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 #blog {
@@ -59,4 +66,63 @@ body {
 }
 
 .blog-text {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  min-height: 230px;
+}
+
+.blog-text span {
+  color: rgb(40, 40, 226);
+  font-size: 0.9rem;
+}
+
+.blog-text .blog-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #272727;
+}
+
+.blog-text p {
+  color: #9b9b9b;
+  font-size: 0.9rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 20px 0;
+}
+
+.blog-text a {
+  color: #0f0f0f;
+  transition: 0.6s;
+}
+
+.blog-text a:hover {
+  color: #8163c7;
+}
+
+.blog-button {
+  margin: 0 0 10px 10px;
+  box-shadow: inset 0px 1px 0 0 #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  cursor: pointer;
+  color: #666666;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px;
+  text-shadow: 0px 1px 1px #ffffff;
+  transition: 0.7s;
+}
+
+.blog-button:hover {
+  background: linear-gradient(to bottom, #f7d9d9 5%, #f6f6f6 100%);
+  background-color: #cecece;
+  transition: 0.7s;
+}
+
+.blog-button:active {
+  position: relative;
+  top: 1px;
 }
