@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* PRESENTATION CSS */
+
+.navigation-menu {
+  height: 100vh;
+}
+
+.personal {
+  font-size: 24px;
+}
+
+.personal-link {
+  text-decoration: none;
+  color: #ff7434;
+  transition: 0.3s;
+}
+
+.personal-link:hover {
+  color: #bd4f0f;
+}
+
+.homework-heading {
+  margin: 25px;
+}
