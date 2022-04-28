@@ -13,6 +13,7 @@
 
 .personal {
   font-size: 24px;
+  margin-bottom: 45px;
 }
 
 .personal-link {
@@ -56,4 +57,20 @@
 }
 .back-home:focus {
   background-color: #ff7434;
+}
+
+.hw-menu-link {
+  font-size: 16px;
+  background-color: #ff7434;
+  color: white;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+.hw-menu-link:hover {
+  color: white;
+  background-color: #ff864e;
+  box-shadow: 0 5px 15px rgba(255, 152, 55, 0.4);
+  transform: translateX(5px);
 }

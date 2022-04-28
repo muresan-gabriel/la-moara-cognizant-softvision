@@ -9,7 +9,7 @@ const HomePage = () => {
       >
         Back to GitHub Repository
       </a>
-      <h1>La Moară - Cognizant Softvision Course</h1>
+      <h1 className="pt-5">La Moară - Cognizant Softvision Course</h1>
       <span className="personal">
         Live homework previews by&nbsp;
         <a
@@ -20,31 +20,33 @@ const HomePage = () => {
           Gabriel Muresan
         </a>
       </span>
-      <h2 className="homework-heading">Homework navigation menu</h2>
-      <a className="personal personal-link" href="./homework_1/index.html">
+      <a
+        className="personal personal-link hw-menu-link"
+        href="./homework_1/index.html"
+      >
         Homework #1
       </a>
-      <a className="personal personal-link" href="#">
+      <a className="personal personal-link hw-menu-link" href="#">
         Homework #2 (inactive)
       </a>
-      <a className="personal personal-link" href="#">
+      <a className="personal personal-link hw-menu-link" href="#">
         Homework #3 (inactive)
       </a>
-      <a className="personal personal-link" href="#">
+      <a className="personal personal-link hw-menu-link" href="#">
         Homework #4 (inactive)
       </a>
-      <a className="personal personal-link" href="#">
+      <a className="personal personal-link hw-menu-link" href="#">
         Homework #5 (inactive)
       </a>
-      <a className="personal personal-link" href="#">
+      <a className="personal personal-link hw-menu-link" href="#">
         Homework #6 (inactive)
       </a>
-      <a className="personal personal-link" href="#">
+      <a className="personal personal-link hw-menu-link" href="#">
         Homework #7 (inactive)
       </a>
       <a
-        className="personal personal-link"
-        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+        className="personal personal-link hw-menu-link"
+        href="https://youtu.be/dQw4w9WgXcQ"
         target="_blank"
       >
         Homework #8 (inactive)
