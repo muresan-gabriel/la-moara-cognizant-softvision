@@ -16,28 +16,51 @@
       <h1>
         You'll have to open your console to view the outcome of this homework.
       </h1>
+      <!-- FIRST PROBLEM -->
       <h2>First problem.</h2>
       <p>
         Create a function which takes a number as a parameter. <br />If the
         number is even, the function returns the number substracted by two,<br />
         otherwise, if it's odd, the function returns the double of the number.
       </p>
-      <!-- FIRST PROBLEM -->
       <div class="code-label">script.js</div>
+
       <pre>
-<code><span class="function-declaration">function</span> <span class="function-name">isEvenOrOdd</span>(<span class="function-params">number</span>) {</code>
-    <code><span class="operands">if</span> (number <span class="operands">%</span> <span class="number">2</span> <span class="operands">===</span> <span class="number">0</span>) {</code>
-        <code><span class="operands">return</span> (number <span class="operands">-=</span> <span class="number">2</span>);</code>
-    <code>}</code>
-    <code><span class="operands">return</span> number <span class="operands">*</span> <span class="number">2</span>;</code>
-<code>}</code>
-<code></code>
-<code>console.<span class="function-name">log</span>(<span class="function-name">isEvenOrOdd</span>(<span class="number">5</span>));</code></pre>
+<code><span class="function-declaration">function</span> <span class="function-name">isEvenOrOdd</span>(<span class="function-params">number</span>) {
+  <span class="operands">if</span> (number <span class="operands">%</span> <span class="number">2</span> <span class="operands">===</span> <span class="number">0</span>) {
+      <span class="operands">return</span> (number <span class="operands">-=</span> <span class="number">2</span>);
+  }
+  <span class="operands">return</span> number <span class="operands">*</span> <span class="number">2</span>;
+}
+
+console.<span class="function-name">log</span>(<span class="function-name">isEvenOrOdd</span>(<span class="number">5</span>));</code></pre>
 
       <div class="code-label">console</div>
       <pre>
 <code><span class="number">10</span></code></pre>
       <!-- END FIRST PROBLEM -->
+      <h2>Second problem</h2>
+      <p>
+        Create a function which stores in an array only the prime numbers
+        from<br />
+        another array received as a parameter. Loop through the array using a<br />
+        'for' loop. Log the result in the console.
+      </p>
+      <div class="code-label">script.js</div>
+      <pre>
+<code><span class="function-declaration">const</span> arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18];
+
+<span class="function-declaration">const</span> savePrimes = (arr) => {
+  <span class="function-declaration">let</span> arrOfPrimes = [];
+  arr.forEach((element) => {
+    if (isPrime(element)) arrOfPrimes.push(element);
+  });
+  return arrOfPrimes;
+};
+
+console.log(savePrimes(arr));</code></pre>
+      <div class="code-label">console</div>
+      <pre><code>(7) [2, 3, 5, 7, 11, 13, 17]</code></pre>
     </div>
   </body>
 </html>
