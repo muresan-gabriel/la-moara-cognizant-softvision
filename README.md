@@ -86,9 +86,13 @@ As the course advances, all languages, tools and technologies used will be poste
 
 <img src="/readme-img/Screenshot_11.png" alt="Homework #1 Screenshot" title="Screenshot of the first homework">
 
-Homework #2
+<a href="https://la-moara-cognizant-softvision-course.netlify.app/homework_2/index.html">Homework #2</a>
 
-- [ ] TBA.
+- [x] First problem.
+- [ ] Second problem.
+- [ ] Third problem.
+- [ ] Fourth problem.
+- [ ] Fifth problem.
 
 Homework #3
 
