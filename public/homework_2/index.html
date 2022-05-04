@@ -52,15 +52,15 @@ console.<span class="function-name">log</span>(<span class="function-name">isEve
 
 <span class="function-declaration">const</span> <span class="function-name">savePrimes</span> <span class="operands">=</span> (<span class="function-params">arr</span>) <span class="operands">=></span> {
   <span class="function-declaration">let</span> arrOfPrimes <span class="operands">=</span> [];
-  <span class="operands">for</span> (<span class="function-declaration">let</span> i <span class="operands">=</span> <span class="number">0</span>; i <= arr.length; i++) {
-    if (isPrime(arr[i])) arrOfPrimes.push(arr[i]);
+  <span class="operands">for</span> (<span class="function-declaration">let</span> i <span class="operands">=</span> <span class="number">0</span>; i <span class="operands"><=</span> arr.<span class="function-declaration">length</span>; i<span class="operands">++</span>) {
+    <span class="operands">if</span> (<span class="function-name">isPrime</span>(arr[i])) arrOfPrimes.<span class="function-name">push</span>(arr[i]);
   });
-  return arrOfPrimes;
+  <span class="operands">return</span> arrOfPrimes;
 };
 
-console.log(savePrimes(arr));</code></pre>
+console.<span class="function-name">log</span>(<span class="function-name">savePrimes</span>(arr));</code></pre>
       <div class="code-label">console</div>
-      <pre><code>(7) [2, 3, 5, 7, 11, 13, 17]</code></pre>
+      <pre><code>(7) [<span class="number">2</span>, <span class="number">3</span>, <span class="number">5</span>, <span class="number">7</span>, <span class="number">11</span>, <span class="number">13</span>, <span class="number">17</span>]</code></pre>
     </div>
   </body>
 </html>
