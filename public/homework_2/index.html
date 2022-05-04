@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js" defer></script>
+    <title>Homework #2</title>
+  </head>
+  <body>
+    <div id="mainSection">
+      <button class="btn back-home" onclick="window.location='/'">
+        Back home
+      </button>
+      <h1>
+        You'll have to open your console to view the outcome of this homework.
+      </h1>
+      <h2>First problem.</h2>
+      <p>
+        Create a function which takes a number as a parameter. <br />If the
+        number is even, the function returns the number substracted by two,<br />
+        otherwise, if it's odd, the function returns the double of the number.
+      </p>
+      <!-- FIRST PROBLEM -->
+      <div class="code-label">script.js</div>
+      <pre>
+<code><span class="function-declaration">function</span> <span class="function-name">isEvenOrOdd</span>(<span class="function-params">number</span>) {</code>
+    <code><span class="operands">if</span> (number <span class="operands">%</span> <span class="number">2</span> <span class="operands">===</span> <span class="number">0</span>) {</code>
+        <code><span class="operands">return</span> (number <span class="operands">-=</span> <span class="number">2</span>);</code>
+    <code>}</code>
+    <code><span class="operands">return</span> number <span class="operands">*</span> <span class="number">2</span>;</code>
+<code>}</code>
+<code></code>
+<code>console.<span class="function-name">log</span>(<span class="function-name">isEvenOrOdd</span>(<span class="number">5</span>));</code></pre>
+
+      <div class="code-label">console</div>
+      <pre>
+<code><span class="number">10</span></code></pre>
+      <!-- END FIRST PROBLEM -->
+    </div>
+  </body>
+</html>

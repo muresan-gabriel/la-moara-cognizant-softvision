@@ -26,8 +26,11 @@ const HomePage = () => {
       >
         Homework #1
       </a>
-      <a className="personal personal-link hw-menu-link" href="#">
-        Homework #2 (inactive)
+      <a
+        className="personal personal-link hw-menu-link"
+        href="./homework_2/index.html"
+      >
+        Homework #2
       </a>
       <a className="personal personal-link hw-menu-link" href="#">
         Homework #3 (inactive)
