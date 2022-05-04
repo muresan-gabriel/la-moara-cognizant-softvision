@@ -32,10 +32,13 @@ console.log(isEvenOrOdd(5));
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18];
 
 const savePrimes = (arr) => {
+  console.log(
+    "2. Create a function which stores in an array only the prime numbers from\n\nanother array received as a parameter. Loop through the array using a\n\n'for' loop. Log the result in the console."
+  );
   let arrOfPrimes = [];
-  arr.forEach((element) => {
-    if (isPrime(element)) arrOfPrimes.push(element);
-  });
+  for (let i = 0; i <= arr.length; i++) {
+    if (isPrime(arr[i])) arrOfPrimes.push(arr[i]);
+  }
   return arrOfPrimes;
 };
 
