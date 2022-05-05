@@ -87,6 +87,11 @@ body {
   margin-bottom: 15px;
 }
 
+pre ::selection {
+  color: inherit;
+  background-color: #584c6077;
+}
+
 .code-label {
   color: white;
   align-self: flex-start;
