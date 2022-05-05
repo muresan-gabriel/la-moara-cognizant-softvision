@@ -79,3 +79,50 @@ let stringNumber = "1523";
   }
   console.log(sumOfOddDigits);
 })(stringNumber);
+
+// 5. Create a switch with atleast 5 cases out of which atleast two to have the same result.
+
+console.log(
+  "5. Create a switch with atleast 5 cases out of which atleast two to have the same result."
+);
+
+let userPreference = "React";
+
+switch (userPreference.toLowerCase()) {
+  case "html":
+    console.log("You could use some CSS...");
+    break;
+  case "css":
+    console.log("Styling is very important!");
+    break;
+  case "javascript":
+    console.log("Very good!");
+    break;
+  case "react":
+  case "angular":
+  case "vue":
+    console.log("Any framework or library is fantastic!");
+    break;
+  case "c":
+  case "c++":
+    console.log("Pointers are fantastic!");
+    break;
+  case ".net":
+  case "c#":
+    console.log("You... I like you.");
+    break;
+  case "java":
+    console.log("Java runs on 56 billion devices! Wow, that's a huge number!");
+    break;
+  case "php":
+    console.log(
+      "I heard great and noble things about Laravel, but I am too afraid to try it just yet..."
+    );
+    break;
+  case "assembly":
+    console.log("pls no...");
+  default:
+    console.log(
+      "Uh oh... I've probably forgot about that or never heard of it."
+    );
+}
