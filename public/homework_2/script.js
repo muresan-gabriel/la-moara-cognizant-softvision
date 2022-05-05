@@ -3,8 +3,7 @@
 // Useful functions
 
 const isPrime = (number) => {
-  for (let i = 2, s = Math.sqrt(number); i <= s; i++)
-    if (number % i === 0) return false;
+  for (let i = 2; i * i <= number; i++) if (number % i === 0) return false;
   return number > 1;
 };
 
@@ -18,7 +17,7 @@ function isEvenOrOdd(number) {
     "1. Function to check if the number is even or odd.\n\nIf the provided number is even, the function returns the number substracted by 2.\n\nOtherwise, if the number is odd, it returns the double of the number."
   );
   if (number % 2 === 0) {
-    return (number -= 2);
+    return number - 2;
   }
   return number * 2;
 }
@@ -35,7 +34,7 @@ const savePrimes = (arr) => {
   console.log(
     "\n2. Create a function which stores in an array only the prime numbers from\n\nanother array received as a parameter. Loop through the array using a\n\n'for' loop. Log the result in the console."
   );
-  let arrOfPrimes = [];
+  const arrOfPrimes = [];
   for (let i = 0; i <= arr.length; i++) {
     if (isPrime(arr[i])) arrOfPrimes.push(arr[i]);
   }
@@ -55,9 +54,9 @@ const saveStrings = function (arr) {
     "\n3. Create a function which stores into an array only strings from an array\n\nreceived as a parameter. Loop through the array using a 'forEach' loop.\n\nLog the result in the console."
   );
   let arrOfStrings = [];
-  arr.forEach((element) => {
-    if (typeof element === "string") arrOfStrings.push(element);
-  });
+  arr.forEach(
+    (element) => typeof element === "string" && arrOfStrings.push(element)
+  );
   return arrOfStrings;
 };
 

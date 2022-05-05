@@ -24,7 +24,7 @@
 <code><span class="comment">// function to check if number is prime</span>
 
 <span class="function-declaration">const</span> <span class="function-name">isPrime</span> <span class="operands">=</span> (<span class="function-params">number</span>) <span class="operands">=></span> {
-    <span class="operands">for</span> (<span class="function-declaration">let</span> i <span class="operands">=</span> <span class="number">2</span>, s <span class="operands">=</span> Math.<span class="function-name">sqrt</span>(number); i <span class="operands"><=</span> s; i<span class="operands">++</span>)
+    <span class="operands">for</span> (<span class="function-declaration">let</span> i <span class="operands">=</span> <span class="number">2</span>; i <span class="operands">*</span> i <span class="operands"><=</span> number; i<span class="operands">++</span>)
         <span class="operands">if</span> (number <span class="operands">%</span> i <span class="operands">===</span> <span class="number">0</span>) <span class="operands">return</span> <span class="number">false</span>;
     <span class="operands">return</span> number <span class="operands">></span> <span class="number">1</span>;
 };
@@ -42,7 +42,7 @@
       <pre>
 <code><span class="function-declaration">function</span> <span class="function-name">isEvenOrOdd</span>(<span class="function-params">number</span>) {
   <span class="operands">if</span> (number <span class="operands">%</span> <span class="number">2</span> <span class="operands">===</span> <span class="number">0</span>) {
-      <span class="operands">return</span> (number <span class="operands">-=</span> <span class="number">2</span>);
+      <span class="operands">return</span> number <span class="operands">-</span> <span class="number">2</span>;
   }
   <span class="operands">return</span> number <span class="operands">*</span> <span class="number">2</span>;
 }
@@ -66,7 +66,7 @@ console.<span class="function-name">log</span>(<span class="function-name">isEve
 <code><span class="function-declaration">const</span> <span class="number">arr</span> = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>, <span class="number">10</span>, <span class="number">11</span>, <span class="number">12</span>, <span class="number">13</span>, <span class="number">14</span>, <span class="number">15</span>, <span class="number">16</span>, <span class="number">17</span>, <span class="number">18</span>];
 
 <span class="function-declaration">const</span> <span class="function-name">savePrimes</span> <span class="operands">=</span> (<span class="function-params">arr</span>) <span class="operands">=></span> {
-  <span class="function-declaration">let</span> arrOfPrimes <span class="operands">=</span> [];
+  <span class="function-declaration">const</span> arrOfPrimes <span class="operands">=</span> [];
   <span class="operands">for</span> (<span class="function-declaration">let</span> i <span class="operands">=</span> <span class="number">0</span>; i <span class="operands"><=</span> arr.<span class="function-declaration">length</span>; i<span class="operands">++</span>) {
     <span class="operands">if</span> (<span class="function-name">isPrime</span>(arr[i])) arrOfPrimes.<span class="function-name">push</span>(arr[i]);
   });
@@ -92,9 +92,9 @@ console.<span class="function-name">log</span>(<span class="function-name">saveP
 
 <span class="function-declaration">const</span> <span class="function-name">saveStrings</span> = <span class="function-declaration">function</span> (<span class="function-params">arr</span>) {
     <span class="function-declaration">let</span> arrOfStrings <span class="operands">=</span> [];
-    arr.<span class="function-name">forEach</span>((<span class="function-params">element</span>) <span class="operands">=></span> {
-        <span class="operands">if</span> (<span class="operands">typeof</span> element <span class="operands">===</span> "<span class="string">string</span>") arrOfStrings.<span class="function-name">push</span>(element);
-    });
+    arr.<span class="function-name">forEach</span>(
+      (<span class="function-params">element</span>) <span class="operands">=></span> <span class="operands">typeof</span> element <span class="operands">===</span> "<span class="string">string</span>" <span class="operands">&&</span> arrOfStrings.<span class="function-name">push</span>(element)
+    );
     <span class="operands">return</span> arrOfStrings;
 };
 
