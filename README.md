@@ -92,7 +92,9 @@ As the course advances, all languages, tools and technologies used will be poste
 - [x] Second problem.
 - [x] Third problem.
 - [x] Fourth problem.
-- [ ] Fifth problem.
+- [x] Fifth problem.
+
+<img src="/readme-img/homework_2.gif" alt="Homework #2 GIF" title="Screenshot of the second homework">
 
 Homework #3
 
