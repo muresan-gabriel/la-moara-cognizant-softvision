@@ -14,10 +14,24 @@
         Back home
       </button>
       <h1>
-        You'll have to open your console to view the outcome of this homework.
+        You'll have to open your console to view the outcome of this homework
       </h1>
+      <!-- USEFUL FUNCTIONS -->
+      <h2>Useful functions</h2>
+      <p>Collection of useful functions I've used in the following programs.</p>
+      <div class="code-label">script.js</div>
+      <pre>
+<code><span class="comment">// function to check if number is prime</span>
+
+<span class="function-declaration">const</span> <span class="function-name">isPrime</span> <span class="operands">=</span> (<span class="function-params">number</span>) <span class="operands">=></span> {
+    <span class="operands">for</span> (<span class="function-declaration">let</span> i <span class="operands">=</span> <span class="number">2</span>, s <span class="operands">=</span> Math.<span class="function-name">sqrt</span>(number); i <span class="operands"><=</span> s; i<span class="operands">++</span>)
+        <span class="operands">if</span> (number <span class="operands">%</span> i <span class="operands">===</span> <span class="number">0</span>) <span class="operands">return</span> <span class="number">false</span>;
+    <span class="operands">return</span> number <span class="operands">></span> <span class="number">1</span>;
+};
+</code></pre>
+      <!-- END OF USEFUL FUNCTIONS -->
       <!-- FIRST PROBLEM -->
-      <h2>First problem.</h2>
+      <h2>First problem</h2>
       <p>
         Create a function which takes a number as a parameter. <br />If the
         number is even, the function returns the number substracted by two,<br />
@@ -39,6 +53,7 @@ console.<span class="function-name">log</span>(<span class="function-name">isEve
       <pre>
 <code><span class="number">10</span></code></pre>
       <!-- END FIRST PROBLEM -->
+      <!-- START SECOND PROBLEM -->
       <h2>Second problem</h2>
       <p>
         Create a function which stores in an array only the prime numbers
@@ -61,6 +76,45 @@ console.<span class="function-name">log</span>(<span class="function-name">isEve
 console.<span class="function-name">log</span>(<span class="function-name">savePrimes</span>(arr));</code></pre>
       <div class="code-label">console</div>
       <pre><code>(7) [<span class="number">2</span>, <span class="number">3</span>, <span class="number">5</span>, <span class="number">7</span>, <span class="number">11</span>, <span class="number">13</span>, <span class="number">17</span>]</code></pre>
+      <!-- END SECOND PROBLEM -->
+      <!-- START THIRD PROBLEM -->
+      <h2>Third problem</h2>
+      <p>
+        Create a function which stores into an array only strings from an
+        array<br />
+        received as a parameter. Loop through the array using a 'forEach'
+        loop.<br />
+        Log the result in the console.
+      </p>
+      <div class="code-label">script.js</div>
+      <pre>
+<code><span class="function-declaration">const</span> <span class="number">secondArr</span> = [<span class="number">1</span>, "<span class="string">1</span>", "<span class="string">salut</span>", <span class="number">2</span>, <span class="number">6</span>, <span class="number">true</span>, "<span class="string">true</span>"];
+
+<span class="function-declaration">const</span> <span class="function-name">saveStrings</span> = <span class="function-declaration">function</span> (<span class="function-params">arr</span>) {
+    <span class="function-declaration">let</span> arrOfStrings <span class="operands">=</span> [];
+    arr.<span class="function-name">forEach</span>((<span class="function-params">element</span>) <span class="operands">=></span> {
+        <span class="operands">if</span> (<span class="operands">typeof</span> element <span class="operands">===</span> "<span class="string">string</span>") arrOfStrings.<span class="function-name">push</span>(element);
+    });
+    <span class="operands">return</span> arrOfStrings;
+};
+
+console.<span class="function-name">log</span>(<span class="function-name">saveStrings</span>(secondArr));</code></pre>
+      <div class="code-label">console</div>
+      <pre><code>(3) ['<span class="string">1</span>', '<span class="string">salut</span>', '<span class="string">true</span>']</code></pre>
+      <!-- END THIRD PROBLEM -->
+      <!-- START FOURTH PROBLEM -->
+      <h2>Fourth problem</h2>
+      <p>
+        Create a function which adds the odd digits of a number received as a<br />
+        paramater (string) using a 'for' loop and the 'continue' keyword.
+      </p>
+      <div class="code-label">script.js</div>
+      <pre>
+<code></code>
+      </pre>
+      <div class="code-label">console</div>
+      <pre><code><span class="number">9</span></code></pre>
+      <!-- END FOURTH PROBLEM -->
     </div>
   </body>
 </html>

@@ -43,3 +43,39 @@ const savePrimes = (arr) => {
 };
 
 console.log(savePrimes(arr));
+
+// 3. Create a function which stores into an array only strings from an array
+// received as a parameter. Loop through the array using a 'forEach' loop.
+// Log the result in the console.
+
+const secondArr = [1, "1", "salut", 2, 6, true, "true"];
+
+const saveStrings = function (arr) {
+  console.log(
+    "3. Create a function which stores into an array only strings from an array\n\nreceived as a parameter. Loop through the array using a 'forEach' loop.\n\nLog the result in the console."
+  );
+  let arrOfStrings = [];
+  arr.forEach((element) => {
+    if (typeof element === "string") arrOfStrings.push(element);
+  });
+  return arrOfStrings;
+};
+
+console.log(saveStrings(secondArr));
+
+// 4. Create a function which adds the odd digits of a number received as a
+// paramater (string) using a 'for' loop and the 'continue' keyword.
+
+let stringNumber = "1523";
+
+((stringNumber) => {
+  console.log(
+    "4. Create a function which adds the odd digits of a number received as a\n\nparamater (string) using a 'for' loop and the 'continue' keyword."
+  );
+  let sumOfOddDigits = 0;
+  for (let i = 0; i < stringNumber.length; i++) {
+    if (Number(stringNumber[i]) % 2 === 0) continue;
+    sumOfOddDigits += Number(stringNumber[i]);
+  }
+  console.log(sumOfOddDigits);
+})(stringNumber);

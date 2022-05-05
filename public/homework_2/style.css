@@ -25,8 +25,7 @@ body {
 }
 
 #mainSection {
-  padding: 25px;
-  height: 90vh;
+  padding: 25px 350px 25px 350px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -98,4 +97,12 @@ body {
 
 .number {
   color: #9d8eff;
+}
+
+.string {
+  color: #ffdc4e;
+}
+
+.comment {
+  color: #7a7a7a;
 }
