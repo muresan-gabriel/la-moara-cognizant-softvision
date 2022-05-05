@@ -89,9 +89,9 @@ As the course advances, all languages, tools and technologies used will be poste
 <a href="https://la-moara-cognizant-softvision-course.netlify.app/homework_2/index.html">Homework #2</a>
 
 - [x] First problem.
-- [ ] Second problem.
-- [ ] Third problem.
-- [ ] Fourth problem.
+- [x] Second problem.
+- [x] Third problem.
+- [x] Fourth problem.
 - [ ] Fifth problem.
 
 Homework #3
