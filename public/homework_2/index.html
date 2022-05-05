@@ -14,7 +14,7 @@
         Back home
       </button>
       <h1>
-        You'll have to open your console to view the outcome of this homework
+        You'll have to open your console to preview the logs of this homework
       </h1>
       <!-- USEFUL FUNCTIONS -->
       <h2>Useful functions</h2>
@@ -110,8 +110,16 @@ console.<span class="function-name">log</span>(<span class="function-name">saveS
       </p>
       <div class="code-label">script.js</div>
       <pre>
-<code></code>
-      </pre>
+<code><span class="function-declaration">let</span> stringNumber <span class="operands">=</span> "<span class="string">1523</span>";
+
+((<span class="function-params">stringNumber</span>) <span class="operands">=></span> {
+    <span class="function-declaration">let</span> sumOfOddDigits <span class="operands">=</span> <span class="number">0</span>;
+    <span class="operands">for</span> (<span class="function-declaration">let</span> i <span class="operands">=</span> <span class="number">0</span>; i <span class="operands"><</span> stringNumber.<span class="function-declaration">length</span>; i<span class="operands">++</span>) {
+        <span class="operands">if</span> (<span class="function-name">Number</span>(stringNumber[i]) <span class="operands">%</span> <span class="number">2</span> <span class="operands">===</span> <span class="number">0</span>) <span class="operands">continue</span>;
+        sumOfOddDigits <span class="operands">+=</span> <span class="function-name">Number</span>(stringNumber[i]);
+    }
+    console.<span class="function-name">log</span>(sumOfOddDigits);
+})(stringNumber);</code></pre>
       <div class="code-label">console</div>
       <pre><code><span class="number">9</span></code></pre>
       <!-- END FOURTH PROBLEM -->
