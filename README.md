@@ -94,7 +94,7 @@ As the course advances, all languages, tools and technologies used will be poste
 - [x] Fourth problem.
 - [x] Fifth problem.
 
-<a href="https://la-moara-cognizant-softvision-course.netlify.app/homework_2/index.html"><img src="/readme-img/homework_2.gif" alt="Homework #2 GIF" title="Screenshot of the second homework" width="1542"></a>
+<img src="/readme-img/homework_2.gif" alt="Homework #2 GIF" title="Screenshot of the second homework" width="1542">
 
 Homework #3
 
