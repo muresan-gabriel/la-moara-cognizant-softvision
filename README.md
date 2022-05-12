@@ -96,7 +96,7 @@ As the course advances, all languages, tools and technologies used will be poste
 
 <img src="/readme-img/homework_2.gif" alt="Homework #2 GIF" title="Screenshot of the second homework" width="1542">
 
-Homework #3
+<a href="https://la-moara-cognizant-softvision-course.netlify.app/third-homework">Homework #3</a>
 
 - [x] Create four React components which display the text 'Exercise X'.
   - X is a number from 1 to 4;
