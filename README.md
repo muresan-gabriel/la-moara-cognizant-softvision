@@ -102,13 +102,13 @@ Homework #3
   - X is a number from 1 to 4;
   - Add a border to these components using a class selector;
   - Use the components separately, without props, because they will be modified in future exercises.
-- [ ] One component which displays data about a food product.
+- [x] One component which displays data about a food product.
   - It should contain name, price, category and the color of the category;
   - These details will be displayed using props;
   - The color of the category will be used for the component's style (e.g. backgroundColor);
   - If one of the properties does not exist, a fitting message should be displayed (e.g. Non-existent price);
   - Use the created component atleast three times inside the 'Exercise 1' component.
-- [ ] 'Exercise 2' component will contain a component which renders your name.
+- [x] 'Exercise 2' component will contain a component which renders your name.
   - When the name is clicked, a CSS class will be applied which will color the name with your favourite color;
   - On the second click, the class will be deleted (toggling);
   - When the name is colored, a text will be displayed next to it saying "the name next to this message is colored'.
