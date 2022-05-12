@@ -77,6 +77,10 @@
 
 /* HOMEWORK 3 CSS */
 
+.exercise-title {
+  margin-left: 25px;
+}
+
 .exercise {
   border: 3px solid #ff9b36bd;
   border-radius: 15px;
@@ -163,15 +167,117 @@
   transition: 0.2s ease-in;
 }
 
-#myName:hover {
-  border-bottom: 1px solid;
-  border-color: inherit;
-}
-
 .my-name-color {
   color: #7559ff;
 }
 
 .name-container p {
   text-align: center;
+}
+
+/* FORM */
+
+.color-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-color-form {
+  color: white;
+  background-color: #7559ff;
+  border-radius: 10px;
+  padding: 10px 25px 10px 25px;
+  margin: 15px;
+}
+
+.btn-color-form:hover {
+  color: white;
+  background-color: #6248e5;
+}
+
+.btn-color-form:active {
+  color: white;
+  background-color: #4e36ca;
+}
+
+.color-input {
+  border-radius: 25px;
+  /* padding: 25px; */
+  border: 1px solid rgb(127, 127, 127);
+  padding: 2px;
+  width: 125px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.color-input::-webkit-color-swatch-wrapper {
+  padding: 5px 8px 5px 8px;
+  border-radius: 25px;
+}
+
+.color-input::-webkit-color-swatch {
+  border-radius: 25px;
+}
+
+.badge-container {
+  border: 1px solid #e7e7e7;
+  padding: 25px;
+  background-color: #f9efeb;
+  border-radius: 15px;
+}
+
+.color-code {
+  background-color: #3c3c3c;
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  margin-left: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-badge {
+  padding: 10px;
+  border: 1px solid #3c3c3c;
+  border-radius: 0 0 10px 10px;
+  min-width: 150px;
+  min-height: 50px;
+}
+
+.badges {
+  margin: 10px;
+}
+
+.btn-remove {
+  background-color: #3c3c3c;
+  color: #ff4747;
+  max-width: 35px;
+  display: flex;
+  justify-content: center;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0;
+}
+
+.btn-remove:hover {
+  background-color: #ff4747;
+  color: #3c3c3c;
+}
+
+.color-label {
+  min-width: 150px;
+  display: flex;
+}
+
+.gradient-container {
+  width: 550px;
+  height: 100px;
+  margin-bottom: 15px;
 }
