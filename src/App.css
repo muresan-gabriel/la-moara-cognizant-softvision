@@ -283,3 +283,42 @@
   border-radius: 15px;
   border: 1px solid #3c3c3c;
 }
+
+.otter-img {
+  border: 2px solid #3c3c3c43;
+}
+
+.post-container {
+  padding: 25px;
+  background-color: #e4dcef;
+  border-radius: 25px;
+}
+
+.post-container h4 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.post-container .btn {
+  transition: 0.2s;
+  margin: 5px 5px 0 0;
+  color: white;
+}
+.post-container .btn:last-child {
+  margin: 5px 0 0 0;
+}
+
+.btn-like {
+  background-color: #7559ff;
+}
+
+.post-container .btn:hover {
+  background-color: #ff8d4b;
+}
+
+.btn-comment {
+  background-color: #7559ff;
+}
+.btn-share {
+  background-color: #7559ff;
+}
