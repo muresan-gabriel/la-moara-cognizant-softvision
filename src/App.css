@@ -78,12 +78,100 @@
 /* HOMEWORK 3 CSS */
 
 .exercise {
-  border: 3px solid #8157ca;
-  border-radius: 25px;
+  border: 3px solid #ff9b36bd;
+  border-radius: 15px;
   padding: 25px;
   margin: 25px;
-  background-color: #eae1f8;
+  background-color: #ffefe985;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+/* PRODUCT CSS */
+
+.package {
+  background-color: #e3edee;
+  border: 2px solid #c7d7ea;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0 25px 0;
+  margin: 15px;
+}
+
+.name {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 800;
+  margin: 0 15px 0 15px;
+  padding: 25px 10px 5px 10px;
+  border: 2px solid #c7d7ea;
+  border-top: none;
+  border-radius: 0 0 15px 15px;
+}
+
+.price {
+  border: 2px solid #c7d7ea;
+  border-radius: 15px;
+  text-align: center;
+  margin: 15px;
+  padding: 5px;
+}
+
+.category {
+  border-radius: 15px;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #c7d7ea;
+}
+
+/* NAME CSS */
+
+.home-3-hw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 150px;
+  border-radius: 15px;
+  transition: 0.3s;
+  float: center;
+}
+.home-3-hw:hover {
+  background-color: #7559ff;
+}
+
+.bi-arrow-left-short {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.exercise-2 {
+  min-height: 140px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#myName {
+  font-weight: 700;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.2s ease-in;
+}
+
+#myName:hover {
+  border-bottom: 1px solid;
+  border-color: inherit;
+}
+
+.my-name-color {
+  color: #7559ff;
+}
+
+.name-container p {
+  text-align: center;
 }

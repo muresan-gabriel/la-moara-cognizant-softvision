@@ -1,7 +1,9 @@
+import Name from "../components/name";
+
 const Exercise2 = () => {
   return (
-    <div className="exercise">
-      <h1>Exercise 2</h1>
+    <div className="exercise exercise-2">
+      <Name />
     </div>
   );
 };
