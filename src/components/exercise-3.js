@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const Exercise3 = () => {
   const [badges, setBadges] = useState([{ id: 0, badgeColor: "#ffffff" }]);
-  const [gradient, setGradient] = useState(["#ffffff", "#000000"]);
+  const [gradient, setGradient] = useState([]);
 
   const addBadge = (badge) => {
     const newBadges = [...badges];
@@ -28,7 +28,9 @@ const Exercise3 = () => {
         <div
           className="gradient-container"
           style={{
-            backgroundImage: `linear-gradient(to right, ${gradient.join(",")})`,
+            backgroundImage: `linear-gradient(to bottom, ${gradient.join(
+              ","
+            )})`,
           }}
         ></div>
         <ColorForm handleClick={addBadge} />

@@ -1,8 +1,9 @@
 const Exercise4 = () => {
   return (
-    <div className="exercise">
-      <h1>Exercise 4</h1>
-    </div>
+    <>
+      <span className="exercise-title">Exercise 4</span>
+      <div className="exercise"></div>
+    </>
   );
 };
 
