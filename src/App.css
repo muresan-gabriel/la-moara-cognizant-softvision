@@ -322,3 +322,12 @@
 .btn-share {
   background-color: #7559ff;
 }
+
+.spinner-container {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d8d8d8;
+}
