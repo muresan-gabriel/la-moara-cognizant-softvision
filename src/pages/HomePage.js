@@ -12,7 +12,7 @@ const HomePage = () => {
       </a>
       <h1 className="pt-5">La Moară - Cognizant Softvision Course</h1>
       <span className="personal">
-        Live homework previews by&nbsp;
+        Live homework previews by &nbsp;
         <a
           className="personal personal-link"
           href="https://gabrielmuresan.site"
