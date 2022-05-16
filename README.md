@@ -117,6 +117,7 @@ As the course advances, all languages, tools and technologies used will be poste
   - Next to each color code there will be a 'Delete' button. Pressing this button will delete that specific color code from the list;
   - Using the array containing the color codes and JSX, use in the parent component a div element with a fixed size (e.g. 100x100) which will have as a background color a gradient which is composed of the colors in the array;
 - [x] 'Exercise 4' component will contain an element which will initially display a "Loading, please wait" message and after 5 seconds, the message "Finished Loading".    
+<img src="/readme-img/homework_3.gif" alt="Homework #3 GIF" title="Screenshot of the third homework" width="1542">
 
 Homework #4
 
