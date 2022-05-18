@@ -148,7 +148,7 @@ As the course advances, all languages, tools and technologies used will be poste
   - [ ] The server will send the message to the other connected clients under the following form: ```[Name]: [Message]```.
 - [ ] Create a new component called ```Notification```. It will display a notification each time a new message is sent in the chat.
   - [ ] You can place the notification anywhere you like and style it however you want to;
-  - [ ] The message of the notification will look like: "```[Name] sent a new message.```";
+  - [ ] The message of the notification will look like: ```[Name] sent a new message.```;
   - [ ] Two events will be sent from the server when a user sends a new message
     - [ ] i. ```io.emit(/*...*/);```
     - [ ] ii. ```io.emit(/*...*/);```
