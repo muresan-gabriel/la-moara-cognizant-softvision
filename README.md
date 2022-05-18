@@ -110,25 +110,25 @@ As the course advances, all languages, tools and technologies used will be poste
 
 <a href="https://la-moara-cognizant-softvision-course.netlify.app/third-homework" id="hw_3">Homework #3</a>
 
-- [x] Create four React components which display the text 'Exercise X'.
+- [x] Create four React components which display the text ```Exercise X```.
   - X is a number from 1 to 4;
   - Add a border to these components using a class selector;
-  - Use the components separately, without props, because they will be modified in future exercises.
+  - Use the components separately, without ```props```, because they will be modified in future exercises.
 - [x] One component which displays data about a food product.
-  - It should contain name, price, category and the color of the category;
+  - It should contain ```name```, ```price```, ```category``` and the ```color``` of the category;
   - These details will be displayed using props;
-  - The color of the category will be used for the component's style (e.g. backgroundColor);
+  - The color of the category will be used for the component's style (e.g. ```backgroundColor```);
   - If one of the properties does not exist, a fitting message should be displayed (e.g. Non-existent price);
-  - Use the created component atleast three times inside the 'Exercise 1' component.
-- [x] 'Exercise 2' component will contain a component which renders your name.
-  - When the name is clicked, a CSS class will be applied which will color the name with your favourite color;
+  - Use the created component atleast three times inside the ```Exercise 1``` component.
+- [x] ```Exercise 2``` component will contain a component which renders your name.
+  - When the name is clicked, a ```CSS``` class will be applied which will color the name with your favourite color;
   - On the second click, the class will be deleted (toggling);
-  - When the name is colored, a text will be displayed next to it saying "the name next to this message is colored'.
-- [x] In the 'Exercise 3' component add another component which will contain a color input and an 'Add' button.
+  - When the name is colored, a text will be displayed next to it saying ```the name next to this message is colored```.
+- [x] In the ```Exercise 3``` component add another component which will contain a color input and an ```Add``` button.
   - Each time the button is pressed, the code of the color will be displayed in the parent component in a list composed of other components;
-  - Next to each color code there will be a 'Delete' button. Pressing this button will delete that specific color code from the list;
-  - Using the array containing the color codes and JSX, use in the parent component a div element with a fixed size (e.g. 100x100) which will have as a background color a gradient which is composed of the colors in the array;
-- [x] 'Exercise 4' component will contain an element which will initially display a "Loading, please wait" message and after 5 seconds, the message "Finished Loading".    
+  - Next to each color code there will be a ```Delete``` button. Pressing this button will delete that specific color code from the list;
+  - Using the array containing the color codes and ```JSX```, use in the parent component a div element with a fixed size (e.g. ```100x100```) which will have as a background color a gradient which is composed of the colors in the array;
+- [x] ```Exercise 4``` component will contain an element which will initially display a ```Loading, please wait``` message and after 5 seconds, the message ```Finished Loading```.    
 <img src="/readme-img/homework_3.gif" alt="Homework #3 GIF" title="Screenshot of the third homework" width="1542">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
