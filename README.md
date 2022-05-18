@@ -24,13 +24,21 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#built-with">Built With</a></li>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#roadmap">Roadmap</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#hw_1">Homework #1</a></li>
+        <li><a href="#hw_2">Homework #2</a></li>
+        <li><a href="#hw_3">Homework #3</a></li>
+        <li><a href="#hw_4">Homework #4</a></li>
+        <li><a href="#hw_5">Homework #5</a></li>
+        <li><a href="#hw_6">Homework #6</a></li>
+        <li><a href="#hw_7">Homework #7</a></li>
+        <li><a href="#hw_8">Homework #8</a></li>
       </ul>
     </li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#deployment">Deployment</a></li>
@@ -75,7 +83,7 @@ As the course advances, all languages, tools and technologies used will be poste
 
 ## Roadmap
 
-<a href="https://la-moara-cognizant-softvision-course.netlify.app/homework_1/index.html">Homework #1</a>
+<a href="https://la-moara-cognizant-softvision-course.netlify.app/homework_1/index.html" id="hw_1">Homework #1</a>
 
 - [x] Create a GitHub repository for future homework.
 - [x] Create an HTML page about a preferred topic.
@@ -86,7 +94,9 @@ As the course advances, all languages, tools and technologies used will be poste
 
 <img src="/readme-img/Screenshot_11.png" alt="Homework #1 Screenshot" title="Screenshot of the first homework">
 
-<a href="https://la-moara-cognizant-softvision-course.netlify.app/homework_2/index.html">Homework #2</a>
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<a href="https://la-moara-cognizant-softvision-course.netlify.app/homework_2/index.html" id="hw_2">Homework #2</a>
 
 - [x] First problem.
 - [x] Second problem.
@@ -96,7 +106,9 @@ As the course advances, all languages, tools and technologies used will be poste
 
 <img src="/readme-img/homework_2.gif" alt="Homework #2 GIF" title="Screenshot of the second homework" width="1542">
 
-<a href="https://la-moara-cognizant-softvision-course.netlify.app/third-homework">Homework #3</a>
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<a href="https://la-moara-cognizant-softvision-course.netlify.app/third-homework" id="hw_3">Homework #3</a>
 
 - [x] Create four React components which display the text 'Exercise X'.
   - X is a number from 1 to 4;
@@ -119,23 +131,51 @@ As the course advances, all languages, tools and technologies used will be poste
 - [x] 'Exercise 4' component will contain an element which will initially display a "Loading, please wait" message and after 5 seconds, the message "Finished Loading".    
 <img src="/readme-img/homework_3.gif" alt="Homework #3 GIF" title="Screenshot of the third homework" width="1542">
 
-Homework #4
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<a href="#" id="hw_4">Homework #4</a>
+
+- [ ] Create a chat using React and Socket.IO.
+  - [ ] The chat will be available to all clients connected when they access the page, rooms are not required.
+  - [ ] The chat needs to be composed of:
+    - [ ] ```Chat``` (Main component);
+    - [ ] ```ChatBox``` (The components which contains the messages);
+    - [ ] ```Message``` (The component which displays the message);
+    - [ ] ```MessageForm``` (The component which contains the text input and the send button).
+- [ ] Add in the ```MessageForm``` component a new text input.
+  - [ ] This input will have the placeholder ```Enter your name```;
+  - [ ] When the user presses the ```Send``` button, the server will receive both the name and the message. The ```Name``` input is not resetted when the user pressed ```Send```;
+  - [ ] The server will send the message to the other connected clients under the following form: "```[Name]: [Message]```".
+- [ ] Create a new component called ```Notification```. It will display a notification each time a new message is sent in the chat.
+  - [ ] You can place the notification anywhere you like and style it however you want to;
+  - [ ] The message of the notification will look like: "```[Name] sent a new message.```";
+  - [ ] Two events will be sent from the server when a user sends a new message
+    - [ ] i. ```io.emit(/*...*/);```
+    - [ ] ii. ```io.emit(/*...*/);```
+  - [ ] Hide the notification after 5 seconds using ```useEffect()```;
+  - [ ] Optional: Send the notification to all clients except the one who sent the message. For this, you can use ```socket.broadcast.emit(/*.../*)```.  
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<a href="#" id="hw_5">Homework #5</a>
 
 - [ ] TBA.
 
-Homework #5
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<a href="#" id="hw_6">Homework #6</a>
 
 - [ ] TBA.
 
-Homework #6
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<a href="#" id="hw_7">Homework #7</a>
 
 - [ ] TBA.
 
-Homework #7
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-- [ ] TBA.
-
-Homework #8
+<a href="#" id="hw_8">Homework #8</a>
 
 - [ ] TBA.
 
